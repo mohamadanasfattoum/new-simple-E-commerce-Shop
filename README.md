@@ -13,7 +13,7 @@ Muckie E-Commerce is a Django-based web application designed to manage and showc
 ## Installation
 
 1. Clone the repository:
-   ```bash
+   ```bashj
    git clone <repository-url>
    ```
 
