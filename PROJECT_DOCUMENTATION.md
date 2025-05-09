@@ -23,6 +23,24 @@ Muckie E-Commerce is a Django-based web application designed to manage an online
 - `migrations/`: Tracks database schema changes.
 - `manage.py`: Django's command-line utility.
 
+## Models Update
+
+### Stock Model
+- **Fields**:
+  - `quantity`: IntegerField to store the stock quantity.
+  - `last_updated`: DateTimeField to track the last update time.
+  - `products`: ManyToManyField linking multiple products to a stock.
+
+### Product Model
+- **Fields**:
+  - `name`: CharField for the product name.
+  - `short_description`: TextField for a brief description.
+  - `description`: TextField for a detailed description.
+  - `price`: DecimalField for the product price.
+  - `stock`: OneToOneField linking the product to a single stock instance.
+
+These updates enhance the relationship between products and stock, allowing for more flexible inventory management.
+
 ## Setup Instructions
 
 1. Clone the repository and navigate to the project directory.

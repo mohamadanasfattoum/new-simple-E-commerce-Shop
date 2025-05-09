@@ -63,6 +63,18 @@ manage.py
 requirements.txt
 ```
 
+## Models Update
+
+The `models.py` file has been updated to include the following changes:
+
+- **Stock Model**:
+  - Added a `products` field as a `ManyToManyField` to associate multiple products with a stock.
+
+- **Product Model**:
+  - The `stock` field is now a `OneToOneField` linked to the `Stock` model.
+
+These changes allow for better management of product-stock relationships.
+
 ## Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request.
