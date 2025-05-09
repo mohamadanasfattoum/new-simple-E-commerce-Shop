@@ -1,5 +1,7 @@
 # Muckie E-Commerce
 
+![Project Screenshot](Django_Simple_E_Commerce_app.png)
+
 Muckie E-Commerce is a Django-based web application designed to manage and showcase products for an online store. This project includes features for product management, API endpoints, and a database for storing product information.
 
 ## Features
